@@ -14,12 +14,16 @@ For best use hide or clean up your desktop icons
 
 Aesthetic
 -------
-![desktop](screenshots/desktop.png)
+![desktop](screenshots/1.png)
+Gets out of your way when you're not focusing on it.
 
-Tablet
 -------
-![tablet](screenshots/tablet.png)
+![tablet](screenshots/2.png)
 
-Phone
+Superb for extra long boards
 -------
-![phone](screenshots/phone.png)
+![phone](screenshots/3.png)
+
+All features and powerups works as usuals
+-------
+![phone](screenshots/4.png)
