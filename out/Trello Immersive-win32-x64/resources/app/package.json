@@ -1,0 +1,39 @@
+{
+  "name": "trello-immersive",
+  "productName": "Trello Immersive",
+  "version": "1.0.0",
+  "description": "Have an immersive Trello experience on your desktop",
+  "main": "main.js",
+  "repository": "https://github.com/Canice-James/Trello-Immersive",
+  "author": "Canice J. James",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "6.0.0-beta.47",
+    "@electron-forge/maker-deb": "6.0.0-beta.47",
+    "@electron-forge/maker-rpm": "6.0.0-beta.47",
+    "@electron-forge/maker-squirrel": "6.0.0-beta.47",
+    "@electron-forge/maker-zip": "6.0.0-beta.47",
+    "electron": "7.1.10"
+  },
+  "scripts": {
+    "start": "electron . --enable-transparent-visuals --disable-gpu",
+    "start-mac": "/Applications/Electron.app/Contents/MacOS/Electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.14.7",
+    "tether": "^1.4.0",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "standard": {
+    "globals": [
+      "$"
+    ]
+  }
+}

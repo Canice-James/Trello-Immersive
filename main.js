@@ -37,6 +37,13 @@ app.on('ready', function () {
     mainWindow.webContents.insertCSS('#board  { opacity: 0.2 !important; transition: opacity 1s;} #board:hover  { opacity: 1 !important;}')
   });
 
+
+  electron.app.setLoginItemSettings({
+      openAtLogin: true,
+      path: electron.app.getPath("exe"),
+      restoreState: true
+  });
+
   // Enable keyboard shortcuts for Developer Tools on various platforms.
   let platform = os.platform()
   if (platform === 'darwin') {
