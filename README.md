@@ -3,7 +3,7 @@
 # Trello Immersive 
 
 ## Why?
-> Because task management is your day-to-day you might as well make it beautiful. For persons who almost always have Trello open and have a taste for aesthetics.
+> Because if task management is your day-to-day you might as well make it beautiful. For persons who almost always have Trello open and have a taste for aesthetics.
 
 
 How to use?
